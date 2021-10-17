@@ -3,7 +3,7 @@ services:
   myapi:
     build: .
     ports:
-      - "3000:3000"
+      - "3001:3001"
     networks:
       - some-net
 networks:
